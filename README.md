@@ -6,7 +6,7 @@
 - 성과 : 8.2%이내 - private 62등/764팀)
 
 ## Summary
-- **Preprocessing** : 피쳐별 이상치 제거, 중복 SMILES 하나만 남기고 데이터 제거, 결측치 처리(유사 화학변수 값으로 대체)
+- **Preprocessing** : 피쳐별 이상치 제거, 중복 SMILES 데이터 제거, 결측치 처리(유사 화학변수 값으로 대체)
 - **Feature Engineering** :
   - 데이터 수 부족으로 SMILES 분자식에 대한 Descriptor를 화학 데이터 오픈 라이브러리(Moredred)로부터 로드 하여 3498개 피쳐 추가함. 이후 object 칼럼 선별하여 드롭(약 500개)
   - Catboost 예측시 전체 데이터 10 quantile로 범주화한 값으로 대체 
