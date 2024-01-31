@@ -13,7 +13,7 @@
   - Catboost 예측시 전체 데이터 10 quantile로 범주화한 값으로 대체 
 - Scaling : MinMax 스케일링 
 - Model : Catboost(범주화), LGBM 앙상블 (개인)
-- Ensemble : 팀원 별로 최고점 모델 앙상블 (Catboost, LGBM, DL 등 모델)
+- Ensemble : 팀원 별로 최고점 모델 예측치 산술평균 앙상블 (Catboost, LGBM, DL)
 
 ## Environment
 - OS: Ubuntu 18.04.4 LTS (GNU/Linux 4.15.0-162-generic x86_64)
