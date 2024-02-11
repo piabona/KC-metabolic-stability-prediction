@@ -3,7 +3,7 @@
 - 대회 개요 (2023.08.07 ~ 2023.09.25) https://dacon.io/competitions/official/236127/overview/description
 - 정형 회귀 예측 (RMSE)
 - 인간과 쥐의 간 대사 효소에 대한 화합물 대사안정성 예측모델 개발 
-- 성과 : 8.2%이내 - private 62등/764팀)
+- 성과 : 팀(3인) 8.2%이내 - private 62등/764팀)
 
 ## Summary
 - **Preprocessing** : 피쳐별 이상치 제거, 중복 SMILES 데이터 제거, 결측치 처리(유사 화학변수 값으로 대체)
